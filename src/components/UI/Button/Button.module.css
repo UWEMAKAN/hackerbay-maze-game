@@ -1,0 +1,23 @@
+.Button {
+  background-color: steelblue;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: .75rem 1rem;
+  text-transform: uppercase;
+  box-shadow:0 0 1rem .1rem rgba(0,0,0, .15);
+  transition: all .5s ease;
+}
+
+.Button:hover {
+  transform: translateY(-2px);
+  box-shadow:0 0 2rem 1rem rgba(0,0,0, .15);
+}
+
+/* .Button::after, .Button::before {
+  content: "";
+  clear: both;
+  display: table;
+} */

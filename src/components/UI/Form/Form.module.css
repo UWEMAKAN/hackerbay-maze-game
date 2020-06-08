@@ -1,0 +1,54 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid steelblue;
+  outline: none;
+  font-size: 1.4rem;
+  color: steelblue;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.Form .Controls {
+  display: flex;
+}
+
+.Form .TextBox {
+  color: black;
+  padding: .25rem 1rem;
+  border: 1px solid steelblue;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+
+.Form .Heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: steelblue;
+}
+
+.Wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: .5rem;
+  display: inline-block;
+  height: 14rem;
+  width: 40rem;
+  z-index: 1000;
+  transition: transform 1s;
+}
+
+@media (max-width: 600px) {
+  .Wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+}

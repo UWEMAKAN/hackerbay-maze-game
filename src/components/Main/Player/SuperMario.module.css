@@ -1,0 +1,6 @@
+.SuperMario {
+  position: absolute;
+  z-index: 200;
+  height: 1rem;
+  width: 1rem;
+}
